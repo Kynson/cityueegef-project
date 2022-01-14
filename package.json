@@ -1,0 +1,22 @@
+{
+  "name": "cityueegef-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx esbuild src/index.ts --bundle --minify --outfile=public/bundle.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kynson/cityueegef-project.git"
+  },
+  "author": "Kynson Szetau (https://kynsonszetau.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kynson/cityueegef-project/issues"
+  },
+  "homepage": "https://github.com/Kynson/cityueegef-project#readme",
+  "dependencies": {
+    "blockly": "^6.20210701.0"
+  }
+}
